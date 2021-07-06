@@ -1,4 +1,4 @@
-import pyttsx3
+#import pyttsx3 Uncomment this line if you are using Ubuntu or any other linux distro.
 import PyPDF2
 book = open('Sample.pdf','rb')
 pdfreader = PyPDF2.PdfFileReader(book)
